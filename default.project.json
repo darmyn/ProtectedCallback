@@ -1,0 +1,13 @@
+{
+  "name": "ProtectedCallback",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src"
+      }
+    }
+  }
+}
