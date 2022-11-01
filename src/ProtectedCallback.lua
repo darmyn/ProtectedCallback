@@ -16,8 +16,8 @@ function ProtectedCallback:fire(entity, ...)
     if rateLimit and entity then
         local lastCall = self.lastCall[entity]
         if lastCall then
-			if os.clock() - lastCall < rateLimit then
-                return
+	    if os.clock() - lastCall < rateLimit then
+               return
             end
         end
     end
