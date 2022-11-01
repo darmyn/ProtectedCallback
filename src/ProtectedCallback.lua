@@ -1,5 +1,3 @@
--- written by darmyn
-
 local ProtectedCallback = {}
 ProtectedCallback.__index = ProtectedCallback
 
